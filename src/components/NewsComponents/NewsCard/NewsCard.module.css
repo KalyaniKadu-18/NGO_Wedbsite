@@ -1,0 +1,50 @@
+.container{
+    width: 75%;
+    border: 2px solid #ddd;
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+}
+
+.NewsCardcontent{
+    position: relative;
+}
+
+.NewsCardImage{
+    width: 550px;
+    height: 350px;
+}
+
+.NewsCardDate{
+    position: absolute;
+    bottom: 150px;
+    top: 320px;
+    color: white;
+    background-color: hsl(219, 64%, 44%);
+    width: 200px;
+    height: 70px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NewsCardHeading{
+    color: #2859C6;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.para{
+    color: #2859C6;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.moreinfo{
+    margin-top: 4rem;
+    font-size: 1.2rem;
+    color: #9751BD;
+    font-weight: bold;
+}

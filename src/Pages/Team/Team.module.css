@@ -1,0 +1,55 @@
+.heading{
+    position: absolute;
+    font-weight: bold;
+ 
+    background-color: white;
+    height: 7rem;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70%;
+    font-size: 3rem;
+    color: #2859B6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.para{
+    width: 80%;
+    color: blue;
+    margin: 5rem auto;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.TeamInfo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.VolunteerData{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.Vheading{
+    color: blue;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.Vbreifinfo{
+    color:blue;
+    margin-top: 3rem ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 1.1rem; 
+}

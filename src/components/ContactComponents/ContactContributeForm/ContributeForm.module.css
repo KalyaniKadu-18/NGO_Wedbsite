@@ -1,0 +1,172 @@
+.container {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1a4da1;
+    text-align: left;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 15px;
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 800px;
+    height: 550px;
+    padding: 40px;
+    border: 3px solid #1a4da1;
+}
+
+.donation {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1a4da1;
+    margin-bottom: 10px;
+}
+
+.para {
+    font-size: 18px;
+    color: #1a4da1;
+    margin-bottom: 20px;
+}
+
+.frequencyDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.frequencyheading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a4da1;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.frequencyBtn1,
+.frequencyBtn2 {
+    width: 50%;
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    background-color: white;
+    color: #1a4da1;
+    border: 1px solid #1a4da1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.frequencyBtn1:active, .frequencyBtn2:active{
+    background-color: #EBE2F4;
+    border: none;
+}
+
+.btnDiv{
+    display: flex;
+    gap: 20px;
+}
+
+.freuencyBtn1:hover,
+.freuencyBtn2:hover {
+    background-color: #8751BD;
+    transform: scale(1.05);
+}
+
+.amountDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.amountBtnDiv{
+    display: flex;
+    gap: 10px;
+}
+
+.amountBtn{
+    width: 20%;
+    height: 3rem;
+    gap: 20px;
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    background-color: white;
+    color: #1a4da1;
+    border: 1px solid #1a4da1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.active{
+    background-color: #EBE2F4;
+    border: none;
+}
+
+.amountheading{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a4da1;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Enteramount{
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    text-align: left;
+    background-color: white;
+    border: 1px solid #1a4da1;
+    color: #1a4da1;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.donateBtn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #1a4da1;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.donateBtn:hover {
+    background-color: #8751BD;
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .formContainer {
+        padding: 20px;
+    }
+
+    .freuencyDiv {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .freuencyBtn1,
+    .freuencyBtn2 {
+        width: 100%;
+    }
+}

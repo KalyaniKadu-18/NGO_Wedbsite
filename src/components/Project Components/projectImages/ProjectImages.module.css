@@ -1,0 +1,80 @@
+.container {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imageText {
+    position: relative;
+    max-width: 400px;
+    text-align: center;
+}
+
+.projectImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.projectText {
+    background: white;
+    border-top: 4px solid blue;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 52%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectHeading {
+    color: blue;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.para {
+    margin-top: 5rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    padding: 0 10px;
+    color: blue;
+}
+
+.readMore {
+    color: blue;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.readMore:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+    .projectText {
+        width: 90%;
+        top: 55%;
+        height: 4rem;
+    }
+
+    .para {
+        margin-top: 5rem;
+        font-size: 0.9rem;
+    }
+
+    .projectHeading {
+        font-size: 1rem;
+    }
+}

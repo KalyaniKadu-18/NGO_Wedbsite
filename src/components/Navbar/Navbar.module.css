@@ -1,0 +1,89 @@
+.navLink_container {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.navbar_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.user_login {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user_icon {
+    font-size: 2rem;
+    color: blue;
+}
+
+.iconDiv {
+    margin-right: 5px;
+}
+
+.icon {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.navbar_info {
+    display: flex;
+    color: blue;
+    justify-content: flex-start;
+}
+
+.navbar_heading {
+    font-weight: bold;
+}
+
+.navbar_headings {
+    margin-right: 5rem;
+}
+
+
+.login_navlink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.login_navlink:hover {
+    color: violet;
+}
+
+.u_list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.u_list li {
+    margin: 0 15px;
+}
+
+.u_list li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.u_list li a:hover {
+    color: violet;
+}

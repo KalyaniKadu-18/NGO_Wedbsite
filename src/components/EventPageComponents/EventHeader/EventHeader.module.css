@@ -1,0 +1,23 @@
+.image{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading1{
+    top: 45%;
+    font-size: 3rem;
+    right: 40%;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+}
+
+.heading2{
+    top: 50%;
+    right:30%;
+    font-weight: bold;
+    font-size: 5rem;
+    position: absolute;
+    color: white;
+}

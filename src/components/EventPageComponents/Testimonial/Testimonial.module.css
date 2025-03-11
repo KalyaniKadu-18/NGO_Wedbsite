@@ -1,0 +1,37 @@
+.container{
+    height: 450px;
+    padding: 3rem;
+    width: 90%;
+    border: none;
+    background-color: #2859B6;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    margin-top: 2rem;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.description{
+    width: 70%;
+    padding-top: 3rem;
+    color: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.para{
+    margin-top: 5rem;
+    color: white;
+    text-align: center;
+}
+

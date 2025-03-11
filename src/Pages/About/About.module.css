@@ -1,0 +1,33 @@
+.about_heading{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #2859B6;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+}
+
+.images{
+    display: flex;
+}
+
+.aboutpara{
+    
+}
+
+.img_1{
+    height: 400px;
+    width: 400px;
+}
+
+.img_2{
+   width: 250px;
+   height: 370px;
+}
